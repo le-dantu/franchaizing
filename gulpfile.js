@@ -5,7 +5,7 @@ var minify = require('gulp-minify');
 var browserSync = require('browser-sync').create();
 
 gulp.task('sass', function(){
-  return gulp.src('src/css/main.scss')
+  return gulp.src('src/css/*.scss')
     .pipe(sass())
     .pipe(gulp.dest('www/css'))
     .pipe(browserSync.reload({
