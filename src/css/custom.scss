@@ -2,6 +2,27 @@ body {
   color: #5a5a5a;
 }
 
+.fixed-top {
+  height: 55px;
+}
+
+.navbar-nav {
+  margin: 0 auto;
+}
+
+.navbar-brand {
+  position: absolute;
+}
+
+.collapse.show {
+    display: block;
+    margin-top: 2.9em;
+    width: 120%;
+    background: #292b2c;
+    margin-left: -1em;
+    padding-left: 1em;
+}
+
 .marketing {
   .col-lg-4 {
     margin-bottom: 1.5rem;
